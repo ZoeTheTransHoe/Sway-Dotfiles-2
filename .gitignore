@@ -2,3 +2,11 @@
 discord/
 pulse/
 
+user-dirs.locale
+user-dirs.dirs
+evolution/sources/system-proxy.source
+evolution/sources/system-calendar.source
+evolution/sources/birthdays.source
+dconf/user
+dconf/user
+dconf/user
