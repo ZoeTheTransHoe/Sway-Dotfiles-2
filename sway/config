@@ -87,6 +87,9 @@ input type:keyboard {
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    #Keybinds By Me	
+	bindsym $mod+q kill
+	bindsym Print exec XDG_CURRENT_DESKTOP=Sway flameshot gui 
 #
 # Moving around:
 #
@@ -207,5 +210,6 @@ bindsym $mod+r mode "resize"
 bar {
 	status_command waybar
 }
-
+exec_always --no-startup-id piow --syslog
+exec_always autotiling
 include /etc/sway/config.d/*
