@@ -6,6 +6,7 @@ Defaults:
 - File Manager: Nautilus
 - Bar: Waybar
 - Photo Viewer: Ristretto
+
 Other Projects That I Used To Customise Sway:
 - Piow (To Show Open Apps Per Desktop): https://github.com/KuabeM/piow
 - Lilex Nerd Fonts: https://www.programmingfonts.org/#lilex
